@@ -49,7 +49,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
         localStorage.setItem('currentUser', JSON.stringify(user));
 
         // Перенаправление на главную страницу или профиль
-        window.location.href = 'index.html'; // Или 'profile.html', если хотите перенаправить в профиль
+        window.location.href = 'profile.html'; // Или 'profile.html', если хотите перенаправить в профиль
     } else {
         alert('Неверный email или пароль!');
     }
